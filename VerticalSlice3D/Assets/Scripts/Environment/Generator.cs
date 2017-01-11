@@ -4,36 +4,36 @@ using UnityEngine;
 
 public class Generator : MonoBehaviour {
 
-    [SerializeField]private GameObject[] tracks;
-    [SerializeField]private Transform trackSpawnerPos;
+    [SerializeField]private GameObject[] grounds;
+    [SerializeField]private Transform groundSpawnerPos;
     private float newPos;
     public static Generator generator;
 
     private float waitTime;
-    private GameObject track;
+    private GameObject ground;
 
     private void Start()
     {
         generator = this;
         newPos = 2.5f;
         waitTime = 0.1f;
-        Track();
+        Ground();
     }
 
-    private void Track()
+    private void Ground()
     {
-        track = Instantiate(tracks[Random.Range(0, tracks.Length)], trackSpawnerPos.position, Quaternion.identity) as GameObject;
-        Vector3 temp = trackSpawnerPos.position;
+        ground = Instantiate(grounds[Random.Range(0, grounds.Length)], groundSpawnerPos.position, Quaternion.identity) as GameObject;
+        Vector3 temp = groundSpawnerPos.position;
         temp.y = 0;
         temp.x = 0;
         temp.z += 2.5f;
-        trackSpawnerPos.position = temp;
+        groundSpawnerPos.position = temp;
         StartCoroutine(Wait());
     }
 
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(waitTime);
-        Track();
+        Ground();
     }
 }
