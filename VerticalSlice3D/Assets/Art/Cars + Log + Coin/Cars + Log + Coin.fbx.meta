@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 2f11a69972404b242a63f5d815403e5f
+timeCreated: 1484141170
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: blue_car
+    100002: //RootNode
+    100004: Coin
+    100006: dakje
+    100008: dakje 1
+    100010: dakje 2
+    100012: dakje 3
+    100014: dakje 4
+    100016: dakje 5
+    100018: deurknop1
+    100020: deurknop1 1
+    100022: deurknop1 2
+    100024: deurknop1 3
+    100026: deurknop1 4
+    100028: deurknop1 5
+    100030: deurknop2
+    100032: deurknop3
+    100034: deurknop4
+    100036: deurknop5
+    100038: deurknop6
+    100040: deurknop7
+    100042: green_car
+    100044: Log
+    100046: midden
+    100048: midden 1
+    100050: midden 2
+    100052: midden 3
+    100054: midden 4
+    100056: midden 5
+    100058: orange_car
+    100060: police_car
+    100062: police_lampje
+    100064: purple_car
+    100066: spoiler
+    100068: taxilampje
+    100070: wiel3
+    100072: wiel3 1
+    100074: wiel3 2
+    100076: wiel3 3
+    100078: wiel3 4
+    100080: wiel3 5
+    100082: wiel4
+    100084: wiel4 1
+    100086: wiel4 2
+    100088: wiel4 3
+    100090: wiel4 4
+    100092: wiel4 5
+    100094: wiel5
+    100096: wiel5 1
+    100098: wiel5 2
+    100100: wiel5 3
+    100102: wiel5 4
+    100104: wiel5 5
+    100106: wiel6
+    100108: wiel6 1
+    100110: wiel6 2
+    100112: wiel6 3
+    100114: wiel6 4
+    100116: wiel6 5
+    100118: yellow_car
+    400000: blue_car
+    400002: //RootNode
+    400004: Coin
+    400006: dakje
+    400008: dakje 1
+    400010: dakje 2
+    400012: dakje 3
+    400014: dakje 4
+    400016: dakje 5
+    400018: deurknop1
+    400020: deurknop1 1
+    400022: deurknop1 2
+    400024: deurknop1 3
+    400026: deurknop1 4
+    400028: deurknop1 5
+    400030: deurknop2
+    400032: deurknop3
+    400034: deurknop4
+    400036: deurknop5
+    400038: deurknop6
+    400040: deurknop7
+    400042: green_car
+    400044: Log
+    400046: midden
+    400048: midden 1
+    400050: midden 2
+    400052: midden 3
+    400054: midden 4
+    400056: midden 5
+    400058: orange_car
+    400060: police_car
+    400062: police_lampje
+    400064: purple_car
+    400066: spoiler
+    400068: taxilampje
+    400070: wiel3
+    400072: wiel3 1
+    400074: wiel3 2
+    400076: wiel3 3
+    400078: wiel3 4
+    400080: wiel3 5
+    400082: wiel4
+    400084: wiel4 1
+    400086: wiel4 2
+    400088: wiel4 3
+    400090: wiel4 4
+    400092: wiel4 5
+    400094: wiel5
+    400096: wiel5 1
+    400098: wiel5 2
+    400100: wiel5 3
+    400102: wiel5 4
+    400104: wiel5 5
+    400106: wiel6
+    400108: wiel6 1
+    400110: wiel6 2
+    400112: wiel6 3
+    400114: wiel6 4
+    400116: wiel6 5
+    400118: yellow_car
+    2300000: Coin
+    2300002: dakje
+    2300004: dakje 1
+    2300006: dakje 2
+    2300008: dakje 3
+    2300010: dakje 4
+    2300012: dakje 5
+    2300014: deurknop1
+    2300016: deurknop1 1
+    2300018: deurknop1 2
+    2300020: deurknop1 3
+    2300022: deurknop1 4
+    2300024: deurknop1 5
+    2300026: deurknop2
+    2300028: deurknop3
+    2300030: deurknop4
+    2300032: deurknop5
+    2300034: deurknop6
+    2300036: deurknop7
+    2300038: Log
+    2300040: midden
+    2300042: midden 1
+    2300044: midden 2
+    2300046: midden 3
+    2300048: midden 4
+    2300050: midden 5
+    2300052: police_lampje
+    2300054: spoiler
+    2300056: taxilampje
+    2300058: wiel3
+    2300060: wiel3 1
+    2300062: wiel3 2
+    2300064: wiel3 3
+    2300066: wiel3 4
+    2300068: wiel3 5
+    2300070: wiel4
+    2300072: wiel4 1
+    2300074: wiel4 2
+    2300076: wiel4 3
+    2300078: wiel4 4
+    2300080: wiel4 5
+    2300082: wiel5
+    2300084: wiel5 1
+    2300086: wiel5 2
+    2300088: wiel5 3
+    2300090: wiel5 4
+    2300092: wiel5 5
+    2300094: wiel6
+    2300096: wiel6 1
+    2300098: wiel6 2
+    2300100: wiel6 3
+    2300102: wiel6 4
+    2300104: wiel6 5
+    3300000: Coin
+    3300002: dakje
+    3300004: dakje 1
+    3300006: dakje 2
+    3300008: dakje 3
+    3300010: dakje 4
+    3300012: dakje 5
+    3300014: deurknop1
+    3300016: deurknop1 1
+    3300018: deurknop1 2
+    3300020: deurknop1 3
+    3300022: deurknop1 4
+    3300024: deurknop1 5
+    3300026: deurknop2
+    3300028: deurknop3
+    3300030: deurknop4
+    3300032: deurknop5
+    3300034: deurknop6
+    3300036: deurknop7
+    3300038: Log
+    3300040: midden
+    3300042: midden 1
+    3300044: midden 2
+    3300046: midden 3
+    3300048: midden 4
+    3300050: midden 5
+    3300052: police_lampje
+    3300054: spoiler
+    3300056: taxilampje
+    3300058: wiel3
+    3300060: wiel3 1
+    3300062: wiel3 2
+    3300064: wiel3 3
+    3300066: wiel3 4
+    3300068: wiel3 5
+    3300070: wiel4
+    3300072: wiel4 1
+    3300074: wiel4 2
+    3300076: wiel4 3
+    3300078: wiel4 4
+    3300080: wiel4 5
+    3300082: wiel5
+    3300084: wiel5 1
+    3300086: wiel5 2
+    3300088: wiel5 3
+    3300090: wiel5 4
+    3300092: wiel5 5
+    3300094: wiel6
+    3300096: wiel6 1
+    3300098: wiel6 2
+    3300100: wiel6 3
+    3300102: wiel6 4
+    3300104: wiel6 5
+    4300000: wiel3
+    4300002: midden
+    4300004: dakje
+    4300006: deurknop1
+    4300008: deurknop2
+    4300010: wiel4
+    4300012: wiel5
+    4300014: wiel6
+    4300016: wiel3
+    4300018: midden
+    4300020: dakje
+    4300022: deurknop1
+    4300024: wiel4
+    4300026: wiel5
+    4300028: wiel6
+    4300030: deurknop3
+    4300032: wiel3
+    4300034: midden
+    4300036: dakje
+    4300038: deurknop1
+    4300040: wiel4
+    4300042: wiel5
+    4300044: wiel6
+    4300046: deurknop4
+    4300048: taxilampje
+    4300050: Log
+    4300052: Coin
+    4300054: wiel3
+    4300056: midden
+    4300058: dakje
+    4300060: deurknop1
+    4300062: wiel4
+    4300064: wiel5
+    4300066: wiel6
+    4300068: deurknop5
+    4300070: wiel3
+    4300072: midden
+    4300074: dakje
+    4300076: deurknop1
+    4300078: wiel4
+    4300080: wiel5
+    4300082: wiel6
+    4300084: deurknop6
+    4300086: spoiler
+    4300088: wiel3
+    4300090: midden
+    4300092: dakje
+    4300094: deurknop1
+    4300096: wiel4
+    4300098: wiel5
+    4300100: wiel6
+    4300102: deurknop7
+    4300104: police_lampje
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
