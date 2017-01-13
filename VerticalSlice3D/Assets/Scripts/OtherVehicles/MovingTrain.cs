@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class MovingTrain : MonoBehaviour {
 
-    private float speed;
+    private float _speed;
 
-    void Start()
+    private void Start()
     {
-        speed = 100f;
+        _speed = 100f;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        this.transform.Translate(Vector3.back * speed * Time.deltaTime);
+        this.transform.Translate(Vector3.back * _speed * Time.deltaTime);
     }
 }

@@ -9,14 +9,13 @@ public class PlayerDeath : MonoBehaviour {
         {
             transform.localScale = new Vector3(1,1,0.01f);
             GetComponent<PlayerMovement>().enabled = false;
-            dying();
+            StartCoroutine(Dying());
         }
     }
 
-    IEnumerator dying()
+    private IEnumerator Dying()
     {
-
-        Destroy(gameObject);
         yield return new WaitForSeconds(2.5f);
+        Destroy(gameObject);
     }
 }

@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class SlowMovingCar : MonoBehaviour {
 
-    private float speed;
+    private float _speed;
 
-    void Start()
+    private void Start()
     {
-        speed = 10f;
+        _speed = 15f;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        this.transform.Translate(Vector3.back * speed * Time.deltaTime);
+        this.transform.Translate(Vector3.back * _speed * Time.deltaTime);
     }
 }

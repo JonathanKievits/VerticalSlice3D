@@ -6,13 +6,13 @@ public class PlayerMovement : MonoBehaviour
 {
     private float _space;
 
-	void Start ()
+    private void Start ()
     {
         _space = 2.5f;
 	}
-	
 
-	void Update ()
+
+    private void Update ()
     {
         if (Input.GetKeyDown(KeyCode.W))
         {

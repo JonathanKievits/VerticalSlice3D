@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class MedMovingCar : MonoBehaviour {
 
-    private float speed;
+    private float _speed;
 
-    void Start()
+    private void Start()
     {
-        speed = 15f;
+        _speed = 20f;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        this.transform.Translate(Vector3.back * speed * Time.deltaTime);
+        this.transform.Translate(Vector3.back * _speed * Time.deltaTime);
     }
 }
