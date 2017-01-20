@@ -5,7 +5,7 @@ public class PlayerDeath : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Train")
+        if (other.tag == "Train" || other.tag == "Car")
         {
             transform.localScale = new Vector3(1,1,0.01f);
             GetComponent<PlayerMovement>().enabled = false;

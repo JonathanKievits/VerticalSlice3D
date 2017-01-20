@@ -13,6 +13,6 @@ public class MovingTruck : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        this.transform.Translate(Vector3.back * _speed * Time.deltaTime);
+        this.transform.Translate(Vector3.left * _speed * Time.deltaTime);
     }
 }
