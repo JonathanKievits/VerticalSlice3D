@@ -15,7 +15,7 @@ public class Generator : MonoBehaviour {
     private void Start()
     {
         generator = this;
-        _newPos = 2.5f;
+        _newPos = 5f;
         _waitTime = 0.1f;
         Ground();
     }
@@ -26,7 +26,7 @@ public class Generator : MonoBehaviour {
         Vector3 temp = _groundSpawnerPos.position;
         temp.y = 0;
         temp.x = 0;
-        temp.z += 2.5f;
+        temp.z += _newPos;
         _groundSpawnerPos.position = temp;
         StartCoroutine(Wait());
     }
